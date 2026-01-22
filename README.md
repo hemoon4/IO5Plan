@@ -116,6 +116,7 @@ IO5Plan/
 ├── Examples/                               # przykładowe dane wejściowe i wyjściowe
 │   ├── InputSamples/                       # przykładowe pliki wejściowe
 │   └── OutputSamples/                      # przykładowe wygenerowane plany
+├── Docs/                                   # grafiki, logo, architektura systemu
 ├── Program.cs                              # punkt startowy aplikacji konsolowej
 └── README.md                               # dokumentacja projektu
 ```
