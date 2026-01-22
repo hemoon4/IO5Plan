@@ -1,9 +1,14 @@
 # IO5Plan
 
+<p align="center">
+  <img src="docs/logo.png" alt="Docker banner" style="max-width: 50%; width: 220px;" />
+</p>
+
+
 **Generator planów zajęć lekcyjnych**  
 (projekt na bardzo wczesnym etapie rozwoju)
 
-Prosta aplikacja pomagająca w automatycznym układaniu planów lekcji dla klas / oddziałów / szkół.
+Inteligentna aplikacja pomagająca w automatycznym układaniu planów lekcji dla szkół.
 
 Obecna wersja: **konsolowa** 
 
