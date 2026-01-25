@@ -10,10 +10,4 @@
     <PackageReference Include="NUnit" Version="4.4.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <None Update="Log4Net.config">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-
 </Project>
