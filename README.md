@@ -1,7 +1,7 @@
 # IO5Plan
 
 <p align="center">
-  <img src="docs/logo.png" alt="Docker banner" style="max-width: 50%; width: 220px;" />
+  <img src="Docs/logo.png" alt="Docker banner" style="max-width: 50%; width: 220px;" />
 </p>
 
 
@@ -74,7 +74,7 @@ Umożliwić szybkie wygenerowanie kilku sensownych wariantów planu lekcji przy 
 
 ## Architektura systemu
 
-![Diagram architektury](./docs/architecture.png)
+![Diagram architektury](Docs/architecture.png)
 
 ## Stos technologiczny
 - **Język**: C# (.NET 9)  
