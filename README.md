@@ -98,25 +98,26 @@ git clone https://github.com/twoj-repo/IO5Plan.git
 ## Struktura folderów
 ```text
 IO5Plan/
-├── Data/                                   # modele danych i logika domenowa
-│   ├── Models/                             # klasy opisujące elementy planu (Lekcja, Nauczyciel, Sala, Klasa, Slot czasowy)
-│   ├── Enums/                              # typy wyliczeniowe (Dni tygodnia, Typ zajęć)
-│   └── Constraints/                        # ograniczenia i reguły domenowe (dostępność nauczycieli, limity godzin)
-├── Input/                                  # moduły do wczytywania danych
-├── Generator/                              # logika generowania planów lekcji                      
-├── Validator/                              # walidacja poprawności planów                       
-├── Presenter/                              # prezentacja planu w konsoli
-│   ├── Formatters/                         # formatowanie danych do tabel
-│   └── Printers/                           # drukowanie planu
-├── Exporter/                               # eksport planów do plików
-├── Utils/                                  # funkcje pomocnicze
-│   ├── Extensions/                         # metody rozszerzające
-│   └── Helpers/                            # narzędzia ogólne
-├── Tests/                                  # testy jednostkowe
-├── Examples/                               # przykładowe dane wejściowe i wyjściowe
-│   ├── InputSamples/                       # przykładowe pliki wejściowe
-│   └── OutputSamples/                      # przykładowe wygenerowane plany
-├── Docs/                                   # grafiki, logo, architektura systemu
-├── Program.cs                              # punkt startowy aplikacji konsolowej
-└── README.md                               # dokumentacja projektu
+├── README.md                                 # dokumentacja projektu
+├── Docs/                                     # grafiki, logo, architektura systemu
+└── Source/
+  ├── Data/                                   # modele danych i logika domenowa
+  │   ├── Models/                             # klasy opisujące elementy planu (Lekcja,   Nauczyciel, Sala, Klasa, Slot czasowy)
+  │   ├── Enums/                              # typy wyliczeniowe (Dni tygodnia, Typ zajęć)
+  │   └── Constraints/                        # ograniczenia i reguły domenowe (dostępność  nauczycieli, limity godzin)
+  ├── Input/                                  # moduły do wczytywania danych
+  ├── Generator/                              # logika generowania planów   lekcji                      
+  ├── Validator/                              # walidacja poprawności   planów                       
+  ├── Presenter/                              # prezentacja planu w konsoli
+  │   ├── Formatters/                         # formatowanie danych do tabel
+  │   └── Printers/                           # drukowanie planu
+  ├── Exporter/                               # eksport planów do plików
+  ├── Utils/                                  # funkcje pomocnicze
+  │   ├── Extensions/                         # metody rozszerzające
+  │   └── Helpers/                            # narzędzia ogólne
+  ├── Tests/                                  # testy jednostkowe
+  ├── Examples/                               # przykładowe dane wejściowe i wyjściowe
+  │   ├── InputSamples/                       # przykładowe pliki wejściowe
+  │   └── OutputSamples/                      # przykładowe wygenerowane plany
+  └── Program.cs                              # punkt startowy aplikacji konsolowej
 ```
