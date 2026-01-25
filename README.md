@@ -97,10 +97,9 @@ git clone https://github.com/twoj-repo/IO5Plan.git
 
 ## Struktura folderów
 ```text
-
 IO5Plan/
-├── README.md                               # dokumentacja projektu
-├── Docs/                                   # grafiki, logo, architektura systemu
+├── README.md                                 # dokumentacja projektu
+├── Docs/                                     # grafiki, logo, architektura systemu
 └── Source/
   ├── Data/                                   # modele danych i logika domenowa
   │   ├── Models/                             # klasy opisujące elementy planu (Lekcja,   Nauczyciel, Sala, Klasa, Slot czasowy)
@@ -120,5 +119,5 @@ IO5Plan/
   ├── Examples/                               # przykładowe dane wejściowe i wyjściowe
   │   ├── InputSamples/                       # przykładowe pliki wejściowe
   │   └── OutputSamples/                      # przykładowe wygenerowane plany
-  ├── Program.cs                              # punkt startowy aplikacji konsolowej
+  └── Program.cs                              # punkt startowy aplikacji konsolowej
 ```
